@@ -1,0 +1,32 @@
+{
+  "name": "lesswatch",
+  "version": "0.0.1",
+  "description": "Watches a single directory of .less files and auto-compiles a master manifest (ie style.less > style.css) on changes. The manifest should import .less files from the watched directory.",
+  "main": "./lib/lesswatch.js",
+  "dependencies": {
+    "less": "~1.4.2",
+    "node-watch": "~0.3.4",
+    "optimist": "~0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jasonrhodes/lesswatch"
+  },
+  "keywords": [
+    "less",
+    "css",
+    "compile",
+    "watch",
+    "build",
+    "development"
+  ],
+  "author": "Jason Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonrhodes/lesswatch/issues"
+  }
+}
